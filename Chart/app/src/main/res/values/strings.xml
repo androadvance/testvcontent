@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">OperationTiming</string>
+    <string name="company">Company</string>
+    <string name="username">UserName</string>
+    <string name="companyname">CompanyName</string>
+    <string name="maild">Mailid</string>
+    <string name="mobno">MobNo</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="update">UpdateInfo</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enter_mobilenumber">Enter Mobile Number</string>
+    <string name="otp">OTP</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="newitem">Add New</string>
+    <string name="changeparticular">Change Particular Count</string>
+    <string name="reports">Reports</string>
+    <string name="update_app_url">http://182.76.164.193/optiming/optiming.apk</string>
+    <string name="notification_description">Downloading Application</string>
+    <string name="me">Edit My Profile</string>
+    <string name="emailormobilenumber">Mailid or MobileNumber</string>
+
+</resources>

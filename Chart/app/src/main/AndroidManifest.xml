@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.akvnsolutions.operationtiming_android">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_round"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UserLogin"></activity>
+        <activity android:name=".Test" />
+        <activity android:name=".LineChartReport" />
+        <activity android:name=".GraphReport" />
+        <activity android:name=".OpTimingReport" />
+        <activity android:name=".UserUpdate" />
+        <activity android:name=".ReportView" />
+        <activity
+            android:name=".userReg"
+            android:noHistory="true" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5856609108170870~6013293759"/>
+
+
+    </application>
+
+</manifest>
+
+
+   <!-- ca-app-pub-3940256099942544~3347511713-->
